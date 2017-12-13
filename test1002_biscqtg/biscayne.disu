@@ -1,0 +1,29 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN DIMENSIONS
+  NODES 106257
+  NJA 559955
+END DIMENSIONS
+
+BEGIN GRIDDATA
+  TOP
+    OPEN/CLOSE biscayne.disu.top.dat FACTOR  1.0  IPRN -1
+  BOT
+    OPEN/CLOSE biscayne.disu.bot.dat FACTOR  1.0  IPRN -1
+  AREA
+    OPEN/CLOSE biscayne.disu.area.dat FACTOR  1.0  IPRN -1
+END GRIDDATA
+
+BEGIN CONNECTIONDATA
+  IHC
+    CONSTANT 1
+  IAC
+    OPEN/CLOSE 'biscayne.disu.iac.dat' FACTOR  1  IPRN -1
+  JA
+    OPEN/CLOSE 'biscayne.disu.ja.dat' FACTOR  1  IPRN -1
+  CL12
+    OPEN/CLOSE 'biscayne.disu.cl12.dat' FACTOR  1.0  IPRN -1
+  HWVA
+    OPEN/CLOSE 'biscayne.disu.fahl.dat' FACTOR  1.0  IPRN -1
+END CONNECTIONDATA

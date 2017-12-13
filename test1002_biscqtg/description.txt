@@ -1,0 +1,1 @@
+This is the Biscayne aquifer quadtree grid model that is described in the MODFLOW-USG report and distributed from the MODFLOW-USG website.  The number of stress periods have been reduced from 1000 to 100 in order to increase the simulation time and reduce the file size.

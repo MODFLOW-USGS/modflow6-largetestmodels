@@ -1,0 +1,410 @@
+
+BEGIN OPTIONS
+  FIXED_CELL
+  SAVE_FLOWS
+END OPTIONS
+
+BEGIN DIMENSIONS
+  MAXBOUND 106257
+END DIMENSIONS
+
+BEGIN PERIOD 1
+  OPEN/CLOSE data/biscayne.evt.sp001.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 2
+  OPEN/CLOSE data/biscayne.evt.sp002.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 3
+  OPEN/CLOSE data/biscayne.evt.sp003.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 4
+  OPEN/CLOSE data/biscayne.evt.sp004.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 5
+  OPEN/CLOSE data/biscayne.evt.sp005.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 6
+  OPEN/CLOSE data/biscayne.evt.sp006.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 7
+  OPEN/CLOSE data/biscayne.evt.sp007.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 8
+  OPEN/CLOSE data/biscayne.evt.sp008.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 9
+  OPEN/CLOSE data/biscayne.evt.sp009.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 10
+  OPEN/CLOSE data/biscayne.evt.sp010.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 11
+  OPEN/CLOSE data/biscayne.evt.sp011.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 12
+  OPEN/CLOSE data/biscayne.evt.sp012.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 13
+  OPEN/CLOSE data/biscayne.evt.sp013.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 14
+  OPEN/CLOSE data/biscayne.evt.sp014.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 15
+  OPEN/CLOSE data/biscayne.evt.sp015.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 16
+  OPEN/CLOSE data/biscayne.evt.sp016.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 17
+  OPEN/CLOSE data/biscayne.evt.sp017.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 18
+  OPEN/CLOSE data/biscayne.evt.sp018.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 19
+  OPEN/CLOSE data/biscayne.evt.sp019.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 20
+  OPEN/CLOSE data/biscayne.evt.sp020.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 21
+  OPEN/CLOSE data/biscayne.evt.sp021.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 22
+  OPEN/CLOSE data/biscayne.evt.sp022.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 23
+  OPEN/CLOSE data/biscayne.evt.sp023.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 24
+  OPEN/CLOSE data/biscayne.evt.sp024.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 25
+  OPEN/CLOSE data/biscayne.evt.sp025.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 26
+  OPEN/CLOSE data/biscayne.evt.sp026.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 27
+  OPEN/CLOSE data/biscayne.evt.sp027.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 28
+  OPEN/CLOSE data/biscayne.evt.sp028.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 29
+  OPEN/CLOSE data/biscayne.evt.sp029.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 30
+  OPEN/CLOSE data/biscayne.evt.sp030.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 31
+  OPEN/CLOSE data/biscayne.evt.sp031.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 32
+  OPEN/CLOSE data/biscayne.evt.sp032.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 33
+  OPEN/CLOSE data/biscayne.evt.sp033.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 34
+  OPEN/CLOSE data/biscayne.evt.sp034.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 35
+  OPEN/CLOSE data/biscayne.evt.sp035.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 36
+  OPEN/CLOSE data/biscayne.evt.sp036.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 37
+  OPEN/CLOSE data/biscayne.evt.sp037.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 38
+  OPEN/CLOSE data/biscayne.evt.sp038.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 39
+  OPEN/CLOSE data/biscayne.evt.sp039.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 40
+  OPEN/CLOSE data/biscayne.evt.sp040.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 41
+  OPEN/CLOSE data/biscayne.evt.sp041.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 42
+  OPEN/CLOSE data/biscayne.evt.sp042.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 43
+  OPEN/CLOSE data/biscayne.evt.sp043.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 44
+  OPEN/CLOSE data/biscayne.evt.sp044.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 45
+  OPEN/CLOSE data/biscayne.evt.sp045.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 46
+  OPEN/CLOSE data/biscayne.evt.sp046.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 47
+  OPEN/CLOSE data/biscayne.evt.sp047.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 48
+  OPEN/CLOSE data/biscayne.evt.sp048.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 49
+  OPEN/CLOSE data/biscayne.evt.sp049.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 50
+  OPEN/CLOSE data/biscayne.evt.sp050.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 51
+  OPEN/CLOSE data/biscayne.evt.sp051.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 52
+  OPEN/CLOSE data/biscayne.evt.sp052.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 53
+  OPEN/CLOSE data/biscayne.evt.sp053.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 54
+  OPEN/CLOSE data/biscayne.evt.sp054.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 55
+  OPEN/CLOSE data/biscayne.evt.sp055.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 56
+  OPEN/CLOSE data/biscayne.evt.sp056.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 57
+  OPEN/CLOSE data/biscayne.evt.sp057.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 58
+  OPEN/CLOSE data/biscayne.evt.sp058.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 59
+  OPEN/CLOSE data/biscayne.evt.sp059.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 60
+  OPEN/CLOSE data/biscayne.evt.sp060.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 61
+  OPEN/CLOSE data/biscayne.evt.sp061.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 62
+  OPEN/CLOSE data/biscayne.evt.sp062.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 63
+  OPEN/CLOSE data/biscayne.evt.sp063.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 64
+  OPEN/CLOSE data/biscayne.evt.sp064.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 65
+  OPEN/CLOSE data/biscayne.evt.sp065.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 66
+  OPEN/CLOSE data/biscayne.evt.sp066.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 67
+  OPEN/CLOSE data/biscayne.evt.sp067.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 68
+  OPEN/CLOSE data/biscayne.evt.sp068.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 69
+  OPEN/CLOSE data/biscayne.evt.sp069.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 70
+  OPEN/CLOSE data/biscayne.evt.sp070.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 71
+  OPEN/CLOSE data/biscayne.evt.sp071.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 72
+  OPEN/CLOSE data/biscayne.evt.sp072.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 73
+  OPEN/CLOSE data/biscayne.evt.sp073.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 74
+  OPEN/CLOSE data/biscayne.evt.sp074.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 75
+  OPEN/CLOSE data/biscayne.evt.sp075.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 76
+  OPEN/CLOSE data/biscayne.evt.sp076.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 77
+  OPEN/CLOSE data/biscayne.evt.sp077.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 78
+  OPEN/CLOSE data/biscayne.evt.sp078.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 79
+  OPEN/CLOSE data/biscayne.evt.sp079.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 80
+  OPEN/CLOSE data/biscayne.evt.sp080.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 81
+  OPEN/CLOSE data/biscayne.evt.sp081.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 82
+  OPEN/CLOSE data/biscayne.evt.sp082.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 83
+  OPEN/CLOSE data/biscayne.evt.sp083.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 84
+  OPEN/CLOSE data/biscayne.evt.sp084.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 85
+  OPEN/CLOSE data/biscayne.evt.sp085.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 86
+  OPEN/CLOSE data/biscayne.evt.sp086.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 87
+  OPEN/CLOSE data/biscayne.evt.sp087.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 88
+  OPEN/CLOSE data/biscayne.evt.sp088.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 89
+  OPEN/CLOSE data/biscayne.evt.sp089.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 90
+  OPEN/CLOSE data/biscayne.evt.sp090.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 91
+  OPEN/CLOSE data/biscayne.evt.sp091.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 92
+  OPEN/CLOSE data/biscayne.evt.sp092.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 93
+  OPEN/CLOSE data/biscayne.evt.sp093.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 94
+  OPEN/CLOSE data/biscayne.evt.sp094.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 95
+  OPEN/CLOSE data/biscayne.evt.sp095.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 96
+  OPEN/CLOSE data/biscayne.evt.sp096.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 97
+  OPEN/CLOSE data/biscayne.evt.sp097.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 98
+  OPEN/CLOSE data/biscayne.evt.sp098.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 99
+  OPEN/CLOSE data/biscayne.evt.sp099.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 100
+  OPEN/CLOSE data/biscayne.evt.sp100.bin.dat (BINARY)
+END PERIOD
+

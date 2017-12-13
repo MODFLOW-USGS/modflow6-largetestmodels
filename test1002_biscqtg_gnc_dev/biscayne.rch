@@ -1,0 +1,234 @@
+
+BEGIN OPTIONS
+  FIXED_CELL
+  SAVE_FLOWS
+END OPTIONS
+
+BEGIN DIMENSIONS
+  MAXBOUND 106257
+END DIMENSIONS
+
+BEGIN PERIOD 1
+  OPEN/CLOSE data/biscayne.rch.sp1.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 2
+  OPEN/CLOSE data/biscayne.rch.sp2.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 3
+  OPEN/CLOSE data/biscayne.rch.sp3.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 4
+  OPEN/CLOSE data/biscayne.rch.sp4.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 5
+  OPEN/CLOSE data/biscayne.rch.zero.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 7
+  OPEN/CLOSE data/biscayne.rch.sp7.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 8
+  OPEN/CLOSE data/biscayne.rch.sp8.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 9
+  OPEN/CLOSE data/biscayne.rch.zero.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 13
+  OPEN/CLOSE data/biscayne.rch.sp2.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 14
+  OPEN/CLOSE data/biscayne.rch.zero.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 17
+  OPEN/CLOSE data/biscayne.rch.sp2.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 18
+  OPEN/CLOSE data/biscayne.rch.zero.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 19
+  OPEN/CLOSE data/biscayne.rch.sp19.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 20
+  OPEN/CLOSE data/biscayne.rch.sp20.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 21
+  OPEN/CLOSE data/biscayne.rch.zero.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 25
+  OPEN/CLOSE data/biscayne.rch.sp25.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 26
+  OPEN/CLOSE data/biscayne.rch.sp26.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 27
+  OPEN/CLOSE data/biscayne.rch.sp27.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 28
+  OPEN/CLOSE data/biscayne.rch.zero.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 29
+  OPEN/CLOSE data/biscayne.rch.sp29.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 30
+  OPEN/CLOSE data/biscayne.rch.sp30.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 31
+  OPEN/CLOSE data/biscayne.rch.zero.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 34
+  OPEN/CLOSE data/biscayne.rch.sp34.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 35
+  OPEN/CLOSE data/biscayne.rch.sp35.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 36
+  OPEN/CLOSE data/biscayne.rch.zero.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 38
+  OPEN/CLOSE data/biscayne.rch.sp38.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 39
+  OPEN/CLOSE data/biscayne.rch.zero.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 47
+  OPEN/CLOSE data/biscayne.rch.sp47.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 48
+  OPEN/CLOSE data/biscayne.rch.sp48.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 49
+  OPEN/CLOSE data/biscayne.rch.zero.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 51
+  OPEN/CLOSE data/biscayne.rch.sp51.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 52
+  OPEN/CLOSE data/biscayne.rch.sp19.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 53
+  OPEN/CLOSE data/biscayne.rch.sp2.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 54
+  OPEN/CLOSE data/biscayne.rch.zero.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 62
+  OPEN/CLOSE data/biscayne.rch.sp62.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 63
+  OPEN/CLOSE data/biscayne.rch.sp63.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 64
+  OPEN/CLOSE data/biscayne.rch.sp64.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 65
+  OPEN/CLOSE data/biscayne.rch.zero.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 68
+  OPEN/CLOSE data/biscayne.rch.sp68.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 69
+  OPEN/CLOSE data/biscayne.rch.zero.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 70
+  OPEN/CLOSE data/biscayne.rch.sp70.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 71
+  OPEN/CLOSE data/biscayne.rch.sp71.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 72
+  OPEN/CLOSE data/biscayne.rch.sp72.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 73
+  OPEN/CLOSE data/biscayne.rch.zero.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 79
+  OPEN/CLOSE data/biscayne.rch.sp2.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 80
+  OPEN/CLOSE data/biscayne.rch.sp80.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 81
+  OPEN/CLOSE data/biscayne.rch.zero.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 88
+  OPEN/CLOSE data/biscayne.rch.sp88.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 89
+  OPEN/CLOSE data/biscayne.rch.sp89.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 90
+  OPEN/CLOSE data/biscayne.rch.sp90.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 91
+  OPEN/CLOSE data/biscayne.rch.sp91.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 92
+  OPEN/CLOSE data/biscayne.rch.sp92.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 93
+  OPEN/CLOSE data/biscayne.rch.zero.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 98
+  OPEN/CLOSE data/biscayne.rch.sp98.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 99
+  OPEN/CLOSE data/biscayne.rch.sp99.bin.dat (BINARY)
+END PERIOD
+
+BEGIN PERIOD 100
+  OPEN/CLOSE data/biscayne.rch.sp100.bin.dat (BINARY)
+END PERIOD
+
