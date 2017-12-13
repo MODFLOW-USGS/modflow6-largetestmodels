@@ -1,0 +1,18 @@
+BEGIN Options
+  NEWTON UNDER_RELAXATION
+END Options
+
+BEGIN PACKAGES
+  DIS6          v6.dis
+  IC6           v6.ic
+  NPF6          v6.npf
+  HFB6          v6.hfb
+  STO6          v6.sto
+  CHD6          v6.chd
+  OC6           v6.oc
+  RCH6          v6.rch
+  SFR6          v6.sfr
+  DRN6          v6.drn
+  EVT6          v6.evt
+END PACKAGES
+
