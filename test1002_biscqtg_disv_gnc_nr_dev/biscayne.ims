@@ -1,30 +1,30 @@
-BEGIN Options
-  PRINT_OPTION ALL #
-  NO_PTC
-END Options
+begin options
+  print_option all #
+  no_ptc
+end options
 
-BEGIN Nonlinear
-  OUTER_HCLOSE   1.0E-05
-  OUTER_MAXIMUM  500
+begin nonlinear
+  outer_dvclose   1.0e-05
+  outer_maximum  500
 	under_relaxation dbd
 	under_relaxation_theta 0.70
 	under_relaxation_kappa 0.08
 	under_relaxation_gamma 0.05
 	under_relaxation_momentum 0.
-	BACKTRACKING_NUMBER 20
-	BACKTRACKING_TOLERANCE 2.
-	BACKTRACKING_REDUCTION_FACTOR 0.2
-	BACKTRACKING_RESIDUAL_LIMIT 5.000000E-04
-END Nonlinear
+	backtracking_number 20
+	backtracking_tolerance 2.
+	backtracking_reduction_factor 0.2
+	backtracking_residual_limit 5.000000e-04
+end nonlinear
 
-BEGIN LINEAR
-  INNER_MAXIMUM  100
-  INNER_HCLOSE   1.E-05
-  INNER_RCLOSE   1e6
-  LINEAR_ACCELERATION  bicgstab
-  NUMBER_ORTHOGONALIZATIONS 2
-  RELAXATION_FACTOR 0.97
-  #PRECONDITIONER_LEVELS 5
-  #PRECONDITIONER_DROP_TOLERANCE 1.e-5
-END LINEAR
+begin linear
+  inner_maximum  100
+  inner_dvclose   1.e-05
+  inner_rclose   1e6
+  linear_acceleration  bicgstab
+  number_orthogonalizations 2
+  relaxation_factor 0.97
+  #preconditioner_levels 5
+  #preconditioner_drop_tolerance 1.e-5
+end linear
 

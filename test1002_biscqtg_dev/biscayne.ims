@@ -1,37 +1,37 @@
 #    0.0001    0.0001       500       100         1         0         1
 #2    0      0     2     0       0      0        1e-3
-#IACL NORDER LEVEL NORTH IREDSYS RRCTOL IDROPTOL EPSRN
+#iacl norder level north iredsys rrctol idroptol epsrn
 #
 #    0.0001    0.0001       500       100         1         0         5
 #         3         0         0         100000
 
-BEGIN Options
-  PRINT_OPTION SUMMARY
-END Options
+begin options
+  print_option summary
+end options
 
-BEGIN Nonlinear
-  OUTER_HCLOSE   1.0E-04
-  OUTER_MAXIMUM  500
-  UNDER_RELAXATION  NONE
+begin nonlinear
+  outer_dvclose   1.0e-04
+  outer_maximum  500
+  under_relaxation  none
   #linear_solver xmd
-END Nonlinear
+end nonlinear
 
-BEGIN LINEAR
-  INNER_MAXIMUM  100
-  INNER_HCLOSE   1.E-04
-  INNER_RCLOSE   1e6
-  LINEAR_ACCELERATION  bicgstab
-  NUMBER_ORTHOGONALIZATIONS 2
-  RELAXATION_FACTOR 0.0
-END LINEAR
+begin linear
+  inner_maximum  100
+  inner_dvclose   1.e-04
+  inner_rclose   1e6
+  linear_acceleration  bicgstab
+  number_orthogonalizations 2
+  relaxation_factor 0.0
+end linear
 
 begin xmd
-	inner_hclose 1.0e-4
+	inner_dvclose 1.0e-4
     inner_maximum 100
-	LINEAR_ACCELERATION bicgstab
+	linear_acceleration bicgstab
 	reordering_method none
-	PRECONDITIONER_LEVELS 0
-	NUMBER_ORTHOGONALIZATIONS 2
+	preconditioner_levels 0
+	number_orthogonalizations 2
 	inner_rclose 0.
-	PRECONDITIONER_DROP_TOLERANCE 0.
+	preconditioner_drop_tolerance 0.
 end xmd
