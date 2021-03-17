@@ -11,6 +11,7 @@ begin nonlinear
 end nonlinear
 
 begin linear
+  inner_maximum 100
 	inner_dvclose 1e-6
-  inner_rclose 1e-3
+  inner_rclose 1e-4
 end linear
