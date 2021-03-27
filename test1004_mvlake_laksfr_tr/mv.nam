@@ -1,5 +1,6 @@
 BEGIN Options
   LIST       mv.lst
+  SAVE_FLOWS
 END Options
 
 BEGIN Packages
@@ -13,4 +14,3 @@ BEGIN Packages
   SFR6       mv.sfr
   WEL6       mv.wel
 END Packages
-

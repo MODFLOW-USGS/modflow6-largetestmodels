@@ -1,7 +1,6 @@
 begin options
   PRINT_INPUT
   PRINT_FLOWS
-  SAVE_FLOWS
 end options
 
 begin dimensions
